@@ -1,0 +1,93 @@
+  .quicksand-fonts {
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .nav-bar{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+  .logo{
+    display: flex;
+  }
+  .image-logo{
+    width: 40px;
+    height: 40px;
+    padding-top: 10px;
+    padding-right: 10px;
+  }
+  .nav-links{
+    display: flex;
+  }
+  .nav-link-1{
+    color: orange;
+    font-size: large;
+  }
+  .nav-link-2{
+    color: #01ACFD;
+    font-size: large;
+  }
+  .nav-link-3{
+    color:#05D4DF;
+    font-size: large;
+  }
+  .nav-link-4{
+    color: #5D58EF;
+    font-size: large;
+  }
+  a {
+    text-decoration: none;
+  }
+  .list-item{
+    display: inline;
+    padding: 5px 20px;
+  }
+  .btn{
+    background-color: orange;
+    font-weight: bold;
+    font-size: 15px;
+    color: #F5F5F5;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer; 
+    transition: 0.3s;
+    width: 140px;
+    height: 40px;
+    margin-top: 10px;
+
+}
+.curriculumn{
+    background-image: url(../assets/bg.png);
+}
+.curriculum-title{
+    display: flex;
+    justify-content: center;
+}
+.curriculum-description{
+    display: flex;
+}
+.kinder {
+    width: 477px;
+    height: 368px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: linear-gradient(#64C8FF,#FFFFFF);
+}
+.elementary {
+    width: 477px;
+    height: 368px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+  .middle {
+    width: 477px;
+    height: 368px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+  }
