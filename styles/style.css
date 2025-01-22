@@ -316,6 +316,8 @@
     background-color: #01ACFD;
     color: #FFFFFF;
     display: flex;
+    justify-content: space-between;
+    padding: 40px;
     padding: 50px;
     margin: 10px 60px;
   }
@@ -346,6 +348,12 @@
 .footer-link {
   color: #FFFFFF;
 }
+
+
+.foot > div {
+  width: 30%;
+}
+
   @media screen and (max-width: 576px) {
     body{
       background-color: white;
@@ -437,10 +445,20 @@
       text-align: center;
       margin-left: 150px;
   }
-  .foot{
-    display: flex;
-    flex-direction: column;
-  
-}
 
+    .foot {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      padding: 20px;
+    }
+  
+    .foot > div {
+      width: 100%;
+      margin-bottom: 20px;
+    }
   }
+  
+  
+
+  
